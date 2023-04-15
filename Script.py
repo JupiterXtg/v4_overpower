@@ -1,6 +1,5 @@
 class script(object):
-    START_TXT = """<b>Hᴇʟʟᴏ {},
-Admin Of Malayali Freaks You Can't Use Meh"""
+    START_TXT = """<b>Hᴇʟʟᴏ {},\n Im Admin Of Malayali Freaks You Can't Use Meh"""
 
     HELP_TXT = """<b>Hᴇʏ {}
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
