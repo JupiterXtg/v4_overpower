@@ -3,7 +3,7 @@ class script(object):
 
     HELP_TXT = """●○●○●○●○●○●○●○●○"""
 
-    ABOUT_TXT = """◆◇◆◇◆◇◆◇"""
+    ABOUT_TXT = """●○●○●○●○●○"""
 
     SOURCE_TXT = """◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇"""
 
