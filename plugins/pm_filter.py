@@ -1036,8 +1036,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             text=script.HELP_TXT,
             reply_markup=reply_markup,
-            parse_mode=enums.ParseMode.HTML
-        )
+            parse_mode=enums.ParseMode.HTML)
+        else:
+            await query.answer("⚠ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ⚠\n\nIᴛꜱ ᴏɴʟʏ ғᴏʀ ᴍʏ ADMINS\n\n©MALAYALIFREAKS", show_alert=True)
     elif query.data == "about":
         buttons = [[
             InlineKeyboardButton('Sᴏᴜʀᴄᴇ Cᴏᴅᴇ', callback_data='close_data')
