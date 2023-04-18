@@ -993,11 +993,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         if query.from_user.id in ADMINS:
             await query.message.edit_text(text=script.HELP_TXT, reply_markup=reply_markup, parse_mode=enums.ParseMode.HTML)
         else:
-            await query.answer("⚠ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ⚠\n\nIᴛꜱ ᴏɴʟʏ ғᴏʀ ᴍʏ ADMINS\n\n©MALAYALI FREAKS", show_alert=True)
+            await query.answer("⚠ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ⚠\n\nIᴛꜱ ᴏɴʟʏ ғᴏʀ ᴍʏ ADMINS\n\n\n©ᴍᴀʟᴀʏᴀʟɪ ғʀᴇᴀᴋs", show_alert=True)
 
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('★ Sᴏᴜʀᴄᴇ Cᴏᴅᴇ ★', callback_data='close_data')
+            InlineKeyboardButton('《 Bᴀᴄᴋ', callback_data='start')
         ]]
         await client.edit_message_media(
             query.message.chat.id, 
