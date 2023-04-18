@@ -942,11 +942,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "filters":
         buttons = [[
-            InlineKeyboardButton('Mᴀɴᴜᴀʟ FIʟᴛᴇʀ', callback_data='manuelfilter'),
-            InlineKeyboardButton('Aᴜᴛᴏ FIʟᴛᴇʀ', callback_data='autofilter')
+            InlineKeyboardButton('★Mᴀɴᴜᴀʟ FIʟᴛᴇʀ★', callback_data='manuelfilter'),
+            InlineKeyboardButton('★Aᴜᴛᴏ FIʟᴛᴇʀ★', callback_data='autofilter')
         ],[
-            InlineKeyboardButton('Bᴀᴄᴋ', callback_data='help'),
-            InlineKeyboardButton('G Fɪʟᴛᴇʀs', callback_data='global_filters')
+            InlineKeyboardButton('★G Fɪʟᴛᴇʀs★', callback_data='global_filters'),
+            InlineKeyboardButton('《Bᴀᴄᴋ', callback_data='help')
         ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
