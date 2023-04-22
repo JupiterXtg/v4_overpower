@@ -26,8 +26,8 @@ async def start(client, message):
                 ],[                       
                     InlineKeyboardButton("𝙈𝙁 𝙁𝙄𝙇𝙈 𝙐𝙋𝘿𝘼𝙏𝙀𝙎", url="https://t.me/+dqquafhU0ig5YzFl")
                 ],[ 
-                    InlineKeyboardButton(" 𝘼𝘽𝙊𝙐𝙏 ", callback_data="about"), 
-                    InlineKeyboardButton("𝙃𝙀𝙇𝙋", callback_data="help")
+                    InlineKeyboardButton(" ⚡️𝘼𝘽𝙊𝙐𝙏⚡️ ", callback_data="about"), 
+                    InlineKeyboardButton("⚙️𝙃𝙀𝙇𝙋⚙️", callback_data="help")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(script.START_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup)
@@ -46,8 +46,8 @@ async def start(client, message):
                 ],[                       
                     InlineKeyboardButton("𝙈𝙁 𝙁𝙄𝙇𝙈 𝙐𝙋𝘿𝘼𝙏𝙀𝙎", url="https://t.me/+dqquafhU0ig5YzFl")
                 ],[ 
-                    InlineKeyboardButton(" 𝘼𝘽𝙊𝙐𝙏 ", callback_data="about"), 
-                    InlineKeyboardButton("𝙃𝙀𝙇𝙋", callback_data="help")
+                    InlineKeyboardButton(" ⚡️𝘼𝘽𝙊𝙐𝙏⚡️", callback_data="about"), 
+                    InlineKeyboardButton("⚙️𝙃𝙀𝙇𝙋⚙️", callback_data="help")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -91,8 +91,8 @@ async def start(client, message):
                 ],[                       
                     InlineKeyboardButton("𝙈𝙁 𝙁𝙄𝙇𝙈 𝙐𝙋𝘿𝘼𝙏𝙀𝙎", url="https://t.me/+dqquafhU0ig5YzFl")
                 ],[ 
-                    InlineKeyboardButton(" 𝘼𝘽𝙊𝙐𝙏 ", callback_data="about"), 
-                    InlineKeyboardButton("𝙃𝙀𝙇𝙋", callback_data="help")
+                    InlineKeyboardButton(" ⚡️𝘼𝘽𝙊𝙐𝙏⚡️ ", callback_data="about"), 
+                    InlineKeyboardButton("⚙️𝙃𝙀𝙇𝙋⚙️", callback_data="help")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
